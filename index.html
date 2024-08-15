@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        *{
+            
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            padding-top: 20%;
+        }
+        table,th,td{
+            border: 1px solid black; 
+            text-align: center;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    
+    <table >
+        <tr>
+            <th>Product </th>
+            <th>Flavors</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Milk</td>
+            <td>Almond</td>
+        </tr>
+        <tr>
+            <!-- <td>Milk</td> -->
+            <td>Mongo</td>
+        </tr>
+        <tr>
+            <!-- <td>Milk</td> -->
+            <td>Choclate</td>
+        </tr>
+        <tr>
+            <td colspan="2">These are excusiv flavors</td>
+        </tr>
+    </table>
+</body>
+</html>
